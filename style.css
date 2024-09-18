@@ -72,14 +72,14 @@
 }
 #headercont2 i{
     display: flex;  
-    justify-content: center;
-    background-color: white;
-    border: 2px solid rgb(94, 89, 89);
+    justify-content: center;  
     width: auto;
     height: 19px;    
-    margin-left: -4;
+    margin-left: 2px;
     border-radius: 4px;
-    font-weight: bold;
+    font-weight: bolder;
+    color: black;
+    font-size: large;
     
 }
 .navlinks{
@@ -277,9 +277,102 @@ a{
     margin-top: -2px;
     width: 100%;
 }
-.mobilenavigation{
-    position: relative;
+.mobilenavlinks{
+    position: absolute;
+    background-color: black;
+    height: 90vh;
+    width: 60%;
+    right: -3%;
+    top: 0px;
+    color: aliceblue;
     z-index: 1;
-    background-color: beige;
-    float: right;
+    font-size: larger;
+    font-weight: bolder;
+    border-radius: 4px;
+}
+.mobilenavlinks ul li{
+    padding: 10px;
+    text-align: center; 
+
+}
+#mobilenavlinks{
+    display: none;
+}
+.mobilenavlinks ul li a{
+    padding: 10px;
+   
+}
+.mobilenavlinks ul li a:hover{
+   background-color: white;
+   padding-left: 70px;
+   padding-right: 70px;
+   color: black;
+   cursor: pointer;
+}
+
+#mobile{
+    font-size: x-large;
+    margin: 4px;
+}
+#myinput_mobile{
+    position: relative;
+    width: 60%;    
+    text-align: center;
+}
+#search2{
+    font-size: large; 
+    display: inline-block;   
+    align-items: baseline;
+   
+    font-weight: bold;
+    color: rgb(241, 236, 236);
+    margin-left: 3px;
+    
+}
+
+li{
+ list-style-type: none;
+}
+#close_icon{
+    font-size: x-large;
+    padding: 12px;
+    position: absolute;
+    padding-top: 0;
+    padding-right: 3px;
+    right: 0;
+    cursor: pointer;
+    
+}
+#menubars{
+    position: absolute;
+    right: 0;
+    top: 8px;
+    font-size: x-large;
+    text-align: center;
+    display: none
+}
+#menubars h3{
+    margin-top: 0;
+    display: none;
+}
+
+@media only screen and (max-width: 745px) {
+    #headercont2{
+        display: none;
+    }
+    #headercont3{
+        display: none;
+    }
+    .navlinks{
+        display: none;
+    }
+    #menubars{
+        display: block;
+        font-size: medium;
+        padding-top: 5px;
+    }
+    #menubars h3{
+        display: block;
+        font-size: medium;
+    }
 }
