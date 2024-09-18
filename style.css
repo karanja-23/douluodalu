@@ -382,9 +382,11 @@ li{
                
     }
     .img1 img {
+        position: relative;
         width: 70%;
     }
     .img2 img{
         width: 70%;
+        position: relative;
     }
 }
