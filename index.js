@@ -7,3 +7,21 @@ menuBars.addEventListener('click', function(){
 closeMenuBar.addEventListener('click', function(){
     myMenu.style.display = "none";
 });
+
+const loginbtn = document.getElementById("headercont3");
+const loginContainer = document.getElementById("loginContainer");
+const bodyContainer = document.getElementById("container");
+const mobileLoginBtn = document.getElementById("mobileLogin");
+loginbtn.addEventListener('click', function(){
+    bodyContainer.style.display = "none";
+    loginContainer.style.display = "block";
+    
+});
+mobileLoginBtn.addEventListener('click', function(){    
+    bodyContainer.style.display = "none";
+    loginContainer.style.display = "block";
+    
+});
+
+
+console.log("hello")

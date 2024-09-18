@@ -11,12 +11,12 @@
     </head>
 
     <body>
-        <div class="container">
+        <div id="container" class="container">
             <div id="myHeader">
                 <div id ="mobilenavlinks" class="mobilenavlinks">
                     <i class="fa fa-times" id="close_icon" aria-hidden="true"></i>
                     <ul>                    
-                    <li><i id="mobile" class="fa fa-user" aria-hidden="true"></i>Login</li>
+                    <li id="mobileLogin"><i id="mobile" class="fa fa-user" aria-hidden="true"></i>Login</li>
                     <li><input id="myinput_mobile" placeholder="Search" type="search"><i id="search2" class="fa fa-search" aria-hidden="true"></i></li>
                     <li><a href="#start">Doulou world</a></li>
                     <li>About</li>
@@ -29,7 +29,7 @@
                  <!--logo-->
                  <div id = "headercont1"><p><img  id="mylogo"  src="./media/icon.png" alt="my_logo">Douluo review</p></div>
                  <div id = "headercont2"> <input id="myinput" placeholder="Search" type="search"><i class="fa fa-search" aria-hidden="true"></i></div>
-                 <div id = "headercont3"><p><i class="fa fa-user" aria-hidden="true"></i>Login</p></header></div>
+                 <div id = "headercont3"><i class="fa fa-user" aria-hidden="true"></i><a><p>Login</p></a></header></div>
                 </div> 
                 <div id="menubars">
                     <i  class="fa fa-bars" aria-hidden="true"></i>
@@ -70,8 +70,10 @@
                 </p>
                 <div class="imageContainer">
                     <div class="img1" ><img title="Tang San and his attached soul bone" src="./media/tang san.jpg"/></div>
+                    <div class="mobilecaption"><caption>Soul master</caption></div>
                     <div class="img2"><img title="Soul rings" src="./media/soulrings.png"/></div>
-                </div>
+                 </div>   
+                <div class="mobilecaption">Soul rings</div>
                 <div class="mytext">
                     <div class="soul"><caption>A soul master<caption></div>
                     <div class="ring"><caption>soul rings</caption></div>
@@ -136,6 +138,25 @@
     
                </section>
             </div>
+        </div>
+        <div id="loginContainer" class="loginContainer">
+            <form>
+                <h2>Login</h2>
+                
+                <label for="email"></label>
+                <input class="input-field" type="text" placeholder="Email" id="email"><br>
+                <label for ="Password" for="password"></label>
+                <input class="input-field" placeholder="Password" id="password" type="text"><br>
+                <div class="remember">
+                    <section>
+                        <input id="radio" type="radio"><label for="radio">Remember me?</label><br>
+                    </section>
+                    <a href="#">forgot password?</a>
+                </div><br>              
+                <button>Sign in</button>
+                <p>Don't have an account? <a>Sign Up</a></p>
+
+            </form>
         </div>
 
         <script src="./index.js"></script>
