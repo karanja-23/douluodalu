@@ -1,0 +1,285 @@
+#myHeader img{
+    height:40px;
+}
+.container{
+    display: block;
+    margin: auto;
+    border-radius: 3px;
+    position: relative;
+    background-color: rgb(161, 149, 137);
+    padding-left: 7px;
+    padding-right: 7px;
+    margin-top: 0;
+    padding-left: 0;
+    padding-top: 0;
+    z-index: 2;
+}
+@media only screen and (max-width: 537px) {
+    *{
+        font-size: small;
+    }
+    #headercont3 p{
+        font-weight: 550;
+        font-size: small;
+    }
+    #mylogo p{
+        display: none;
+    }
+
+}
+
+.myheader{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    margin-top: -2;
+}
+#myHeader{
+    position: relative;
+    margin-top: 0;
+    padding-top: 0;
+    padding-left: 0;
+}
+#headercont1{
+    display: inline-flex;
+    align-items: center;
+    margin-top: 0;
+    padding-top: 0;
+    padding-left: 0;
+    position: relative;
+}
+#headercont1 p{
+    display: flex;    
+    align-items: center;
+    justify-content: center;
+}
+#headercont2{
+    display: inline-flex;
+    align-items: center;
+    position: relative;
+}
+#headercont2 input{
+    border-radius: 4px;
+    border: 2px solid rgb(94, 89, 89);
+    display: flex;
+    align-items: center;
+    height: 23px;
+    border-right: none;
+    margin-right: 0;
+    width: 100%;
+}
+#headercont2 i{
+    display: flex;  
+    justify-content: center;
+    background-color: white;
+    border: 2px solid rgb(94, 89, 89);
+    width: auto;
+    height: 19px;    
+    margin-left: -4;
+    border-radius: 4px;
+    font-weight: bold;
+    
+}
+.navlinks{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 0;
+    padding-top: 0; 
+    font-size: large;
+    color: rgb(44, 41, 41);
+    font-weight: 600; 
+    position: relative;  
+    width: 50%;
+    margin: auto;
+}
+.navlinks li{
+    list-style-type: none;
+    padding: 5px;
+    border-radius: 4px;
+    
+}
+.navlinks li:hover{
+    background-color: aliceblue;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+#headercont3{
+    display: inline-flex;
+    position: relative;
+    cursor: pointer;
+}
+#headercont3 i{
+    font-size: x-large;
+    margin-right: 4px;
+}
+#headercont3 p{
+    font-weight: 550;
+    font-size: large;
+    
+}
+
+*{
+    padding-top: 0;
+    padding-left: 0;
+}
+
+body{
+    background-color: rgb(161, 149, 137);
+    margin-top: 0;
+    padding-top: 0;
+}
+#mylogo p{
+    align-items: center;
+    cursor: pointer;
+}
+.myContainer{
+    margin: 10px;
+    position: relative;
+    width: 100%;
+}
+.myContainer img{
+    position: relative;
+    display: block;
+    width: 70%;
+    margin: auto;
+    border-radius: 4px;
+}
+.myContainer h3{
+    text-align: center;
+    color: rgb(41, 11, 11);
+}
+.myContainer p{
+    position: relative;
+    width: 87%;
+    margin: auto;
+    margin-top: 20px;
+    font-size: large;
+    font-weight: 300;
+}
+#myinput {
+    text-align: center;
+    align-items: baseline;
+    font-size: medium;
+}
+.imageContainer{
+    margin-top: 20px;
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: auto;
+    margin-right: 50px;
+    
+}
+.img1{
+    display: inline-flex;
+}
+.img1 img{
+    width: 60%;
+}
+.img1 figcaption{
+    display: block;
+    float: left;
+}
+
+.img2{
+    display: inline-flex;
+}
+.img2 img{
+    width: 70%;
+}
+.mytext{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.mytext div{
+    
+    margin-right: -20px;
+}
+.soul{
+    margin-top: -25px;
+}
+.ring{
+    margin-top: 9px;
+}
+table, th, td{
+    margin: auto;
+    width: 70%;
+    text-align: center;
+    border: 3px solid rgb(30, 65, 110);
+    border-collapse: collapse;
+    border-radius: 8px;
+    table-layout: fixed;
+}#myFooter{
+    background-color: rgb(34, 39, 46);
+    font-size: small;
+    border-radius: 7px;
+    margin-top: 90px;
+    text-align: center;
+    width: 100%;
+    height: auto;
+    position: relative;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 20px;
+
+}
+
+#myFooter p{
+    margin-top: -10px;
+    color: azure;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.fa-whatsapp{
+    width: 23px;
+    font-size: large;
+}
+.fa-twitter{
+    width: 23px;
+    font-size: large;
+}
+.fa-instagram{
+    width: 23px;
+}
+.fa-phone{
+    width: 23px;
+    font-size: large;
+}
+.fa-envelope{
+    width: 23px;
+    font-size: large;
+}
+
+.fa-facebook{
+    width: 23px;
+    font-size: large;
+}
+  
+.footer{
+    display: flex;
+}
+#cts{
+    text-align: center;
+    padding-top: 5px;
+    color: purple;
+    font-size: small;margin-top: 50px;
+}
+#cts hr{
+    margin-bottom: -14px;
+    margin-top: -2px;
+    width: 100%;
+}
+.mobilenavigation{
+    position: relative;
+    z-index: 1;
+    background-color: beige;
+    float: right;
+}
