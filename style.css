@@ -2,15 +2,16 @@
     height:40px;
 }
 html{
-    padding: 0;
-    margin: ;
+    background-color: rgb(224, 216, 208);
+}
+body{
+    border: none;
 }
 .container{
     display: block;
-    margin: ;
-    border-radius: 3px;
+    
     position: relative;
-    background-color: rgb(161, 149, 137);
+    background-color: rgb(224, 216, 208);
     padding-left: px;
     padding-right: 0px;
     margin-top: 0;
