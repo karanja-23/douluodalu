@@ -1,14 +1,18 @@
 #myHeader img{
     height:40px;
 }
+html{
+    padding: 0;
+    margin: ;
+}
 .container{
     display: block;
-    margin: auto;
+    margin: ;
     border-radius: 3px;
     position: relative;
     background-color: rgb(161, 149, 137);
-    padding-left: 7px;
-    padding-right: 7px;
+    padding-left: px;
+    padding-right: 0px;
     margin-top: 0;
     padding-left: 0;
     padding-top: 0;
@@ -146,11 +150,12 @@ body{
     margin: 10px;
     position: relative;
     width: 100%;
+    margin: 0;
 }
 .myContainer img{
     position: relative;
     display: block;
-    width: 70%;
+    width: 90%;
     margin: auto;
     border-radius: 4px;
 }
@@ -160,10 +165,10 @@ body{
 }
 .myContainer p{
     position: relative;
-    width: 87%;
+    width: 100%;
     margin: auto;
     margin-top: 20px;
-    font-size: large;
+    font-size: medium;
     font-weight: 300;
 }
 #myinput {
@@ -286,7 +291,7 @@ a{
 }
 .mobilenavlinks{
     position: absolute;
-    background-color: rgb(63, 49, 49);
+    background-color:black;
     height: 100vh;
     width: 60%;
     right: -3%;
@@ -296,6 +301,10 @@ a{
     font-size: larger;
     font-weight: bolder;
     border-radius: 4px;
+}
+
+#mobileLogin{
+    margin-top: 32px;
 }
 .mobilenavlinks ul li{
     padding: 10px;
@@ -310,7 +319,7 @@ a{
    
 }
 .mobilenavlinks ul li a:hover{
-   background-color: white;
+   background-color: #ffffff;
    padding-left: 70px;
    padding-right: 70px;
    color: black;
@@ -348,8 +357,10 @@ li{
     position: absolute;
     padding-top: 0;
     padding-right: 3px;
-    right: 0;
+    top: 12px;
+    right: 17px;
     cursor: pointer;
+   
     
 }
 .mobilecaption{
@@ -375,17 +386,31 @@ li{
     #headercont3{
         display: none;
     }
+    .myContainer p{
+        font-size: medium;
+    }
+    table, th, td{
+        width: 90%;
+    }
+    *{
+        font-size: x-small;
+    }
     .navlinks{
         display: none;
     }
     #menubars{
         display: block;
-        font-size: medium;
+        font-size: small;
         padding-top: 5px;
     }
+    p{
+        font-size: small;
+    }
+
+    
     #menubars h3{
         display: block;
-        font-size: medium;
+        font-size: small;
     }
     .imageContainer{
         margin-top: 20px;
@@ -393,6 +418,7 @@ li{
         display: block;
                
     }
+
     .imageContainer{
         display: flex;
         flex-direction: column;
@@ -414,6 +440,9 @@ li{
     .mytext{
         display: none;
     }
+    #loginContainer{
+        font-size: x-large;
+    }
 }
 #loginContainer{
     
@@ -421,9 +450,9 @@ li{
     flex-direction: column;
     width: 30%;
     height: 70vh;
-    padding: 30px;
+    padding: 70px;
     margin-top: 90px;
-    background-color: aqua;
+    background-color: rgb(161, 149, 137);
     border-radius: 25px;
    
 }
@@ -450,7 +479,7 @@ form h2{
 }
 ::placeholder{
     font-weight: 600;
-    color: black;
+    
 }
 .input-field:focus{
     width: 75%
@@ -497,22 +526,11 @@ button{
         margin: 0;
         font-size: small;
     }
-    body{
-        background-color: aqua;
+    body{        
         font-size: xx-small;
     }
-
-}
-@media only screen and (max-width: 1488px) {
-    #loginContainer{
-        width: 35%;
-        font-size: small;
-    }
-}
-@media only screen and (max-width: 724px) {
     .input-field{
-        
-        width: 60%;
+        width: 90%;
         height:40px;        
         padding: 0 15px;
         margin-bottom: 25px;
@@ -523,4 +541,42 @@ button{
         outline: none;
     
     }
+
 }
+
+@media only screen and (max-width: 724px) {
+    .input-field{
+        
+        width: 70%;
+        height:35px;        
+        padding: 0 15px;
+        margin-bottom: 25px;
+        border-radius: 30px;
+        border: none;
+        box-shadow: 0px 5px 10px 1px black(0,0,0,0.05);
+        transition: .3s;
+        outline: none;
+        font-size: medium;
+        font-weight: 400;
+    }
+    form h2{
+        font-size: medium
+    }
+    :placeholder{
+        font-weight: 600;
+        font-size: x-small;
+    }
+
+}
+.noto-sans{
+    font-family: "Noto Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+  }
+
+  *{
+    font-family: "Noto Sans", sans-serif;
+  }
