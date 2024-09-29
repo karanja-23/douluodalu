@@ -1,4 +1,5 @@
-Create a review/ summary of douluo world
-describe characters and their abilities 
-mobile responsive
-create functional navigation bar
+# Week 1 Code Challenge
+
+#### Date, 29/09/2024
+
+#### By *Hosea Karanja Mungai*
